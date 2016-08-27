@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "안녕하세요. 노란입니다."
+    return "안녕하세요. 랄라입니다."
 
 @app.route("/job")
 def job():
-    return "카카오에 다닙니다."
+    return "회사에 다닙니다."
 
 if __name__ == "__main__":
 	port = int(os.environ.get('PORT', 5000))
