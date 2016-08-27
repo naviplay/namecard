@@ -12,4 +12,4 @@ def job():
     return "카카오에 다닙니다."
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0')
