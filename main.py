@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "안녕하세요. 랄라입니다."
+    return "안녕하세요. 랄라입니다. 반가워요. "
 
 @app.route("/job")
 def job():
